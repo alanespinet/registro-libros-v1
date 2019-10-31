@@ -35,6 +35,7 @@ ReactDOM.render(
                         <Route path="/libros/:id" component={VerLibro} />
                         <Route path="/autores" exact={true} component={ListaAutores} />
                         <Route path="/autores/adicionar" component={AdicionarAutor} />
+                        <Route component={App} />
                     </Switch>
                 </Main>
             </>
