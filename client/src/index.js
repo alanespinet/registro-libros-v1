@@ -19,7 +19,7 @@ import Header from './components/layout/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const client = new ApolloClient({
-    uri: 'http://localhost:4200/graphql'
+    uri: 'https://registro-libros-v1.herokuapp.com/graphql'
 });
 
 ReactDOM.render(
